@@ -40,12 +40,12 @@ class Game
     each(&.log_final_score)
   end
 
-  private def done?
-    @turn > TURNS
-  end
-
   def completion
     @turn / TURNS
+  end
+
+  private def done?
+    @turn > TURNS
   end
 
   private def log(text)

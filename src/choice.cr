@@ -5,14 +5,14 @@ enum Choice
   Defect
 
   def to_s
-    super.downcase.colorize(color.not_nil!)
+    super.downcase.colorize(color)
   end
 
   private def color
     case self
     when Cooperate then :green
     when Defect    then :red
-    end
+    end.not_nil!
   end
 
   def self.matrix(a : Choice, b : Choice)
