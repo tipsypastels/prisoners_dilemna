@@ -1,3 +1,5 @@
+# `RandomChoice`
+# Chooses completely randomly
 class RandomChoice < Strategy
   RANDOM = Random.new
 

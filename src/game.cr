@@ -7,6 +7,7 @@ class Game
 
   @strat1 : Strategy
   @strat2 : Strategy
+
   getter turn = 1
 
   def initialize(strat1, strat2)

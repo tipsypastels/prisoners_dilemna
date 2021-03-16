@@ -1,3 +1,5 @@
+# `Grudger`
+# Defects if the foe ever did, otherwise cooperates.
 class Grudger < Strategy
   @foe_did_ever_defect = false
 

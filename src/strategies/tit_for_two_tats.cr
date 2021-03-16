@@ -1,3 +1,5 @@
+# `TitForTwoTats`
+# Defects if the foe just defected twice in a row, otherwise cooperates.
 class TitForTwoTats < Strategy
   def choose(game : Game, foe : Strategy) : Choice
     return defect if defected_twice?(foe)
