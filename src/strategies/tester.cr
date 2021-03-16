@@ -1,3 +1,7 @@
+# `Tester`
+# Defects on the first turn. If it ever receives a defection, turns into
+# `TitForTat`. If not, it will defect whenever doing so would not put
+# its defection percentage over 50%.
 class Tester < Strategy
   def choose(game : Game, foe : Strategy) : Choice
     return defect if game.turn == 1
