@@ -1,4 +1,4 @@
 require "./**"
 
-game = Game.new(Tester, RandomChoice)
+game = Game.new(Tester, TitForTwoTats)
 game.start
