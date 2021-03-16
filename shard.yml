@@ -1,0 +1,13 @@
+name: game_theory
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  game_theory:
+    main: src/game_theory.cr
+
+crystal: 0.35.1
+
+license: MIT
