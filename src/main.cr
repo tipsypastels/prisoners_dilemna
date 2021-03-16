@@ -1,4 +1,4 @@
-require "./game_theory/**"
+require "./**"
 
 game = Game.new(Tester, RandomChoice)
 game.start
